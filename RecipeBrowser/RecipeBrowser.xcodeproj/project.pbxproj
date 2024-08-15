@@ -23,6 +23,7 @@
 		BB2A792A2C6EAA580033A028 /* SessionFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A79292C6EAA580033A028 /* SessionFactory.swift */; };
 		BB2A792D2C6EACC30033A028 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A792C2C6EACC30033A028 /* Constants.swift */; };
 		BB2A792F2C6EB2220033A028 /* RecipeListViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB2A792E2C6EB2220033A028 /* RecipeListViewState.swift */; };
+		BBD876C52C6EBB5A00F8E3B8 /* RecipeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD876C42C6EBB5A00F8E3B8 /* RecipeListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		BB2A79292C6EAA580033A028 /* SessionFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionFactory.swift; sourceTree = "<group>"; };
 		BB2A792C2C6EACC30033A028 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BB2A792E2C6EB2220033A028 /* RecipeListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewState.swift; sourceTree = "<group>"; };
+		BBD876C42C6EBB5A00F8E3B8 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				BB2A78E52C6EA1FF0033A028 /* RecipeListScreen.swift */,
+				BBD876C42C6EBB5A00F8E3B8 /* RecipeListViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				BB2A792D2C6EACC30033A028 /* Constants.swift in Sources */,
 				BB2A792A2C6EAA580033A028 /* SessionFactory.swift in Sources */,
 				BB2A791E2C6EA63E0033A028 /* RecipeListRepository.swift in Sources */,
+				BBD876C52C6EBB5A00F8E3B8 /* RecipeListViewModel.swift in Sources */,
 				BB2A79242C6EA9390033A028 /* HTTPService.swift in Sources */,
 				BB2A792F2C6EB2220033A028 /* RecipeListViewState.swift in Sources */,
 				BB2A78E42C6EA1FF0033A028 /* RecipeBrowserApp.swift in Sources */,

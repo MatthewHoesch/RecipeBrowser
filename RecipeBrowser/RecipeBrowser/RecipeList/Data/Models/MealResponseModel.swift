@@ -1,11 +1,11 @@
 import Foundation
 
 struct MealResponseModel: Codable {
-    let meals: [Meal]
+    var meals: [Meal]
 }
 
 struct Meal: Codable {
-    let strMeal: String
-    let strMealThumb: String
-    let idMeal: String
+    var strMeal: String
+    var strMealThumb: String
+    var idMeal: String
 }
