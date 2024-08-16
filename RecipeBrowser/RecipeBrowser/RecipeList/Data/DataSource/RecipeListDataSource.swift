@@ -18,7 +18,6 @@ class RecipeListDataSource {
         } else {
             return nil
         }
-
     }
 
     private func mapRecipeListSuccessResponse(using data: Data?) -> MealResponseModel? {

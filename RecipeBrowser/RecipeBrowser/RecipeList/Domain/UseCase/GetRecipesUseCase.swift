@@ -1,10 +1,3 @@
-//
-//  GetDessertsUseCase.swift
-//  RecipeBrowser
-//
-//  Created by Matthew Hoesch on 8/15/24.
-//
-
 import Foundation
 
 class GetRecipesUseCase {

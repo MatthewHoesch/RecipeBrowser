@@ -64,6 +64,7 @@
 		BB2A792C2C6EACC30033A028 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BB2A792E2C6EB2220033A028 /* RecipeListViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewState.swift; sourceTree = "<group>"; };
 		BBD876C42C6EBB5A00F8E3B8 /* RecipeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewModel.swift; sourceTree = "<group>"; };
+		BBD876C62C6EF17000F8E3B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +115,7 @@
 		BB2A78E22C6EA1FF0033A028 /* RecipeBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				BBD876C62C6EF17000F8E3B8 /* Info.plist */,
 				BB2A792B2C6EACAC0033A028 /* Constants */,
 				BB2A79282C6EAA440033A028 /* Factory */,
 				BB2A79252C6EA9F70033A028 /* Wrappers */,
@@ -601,6 +603,7 @@
 				DEVELOPMENT_TEAM = GDM6896TUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -630,6 +633,7 @@
 				DEVELOPMENT_TEAM = GDM6896TUV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RecipeBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
